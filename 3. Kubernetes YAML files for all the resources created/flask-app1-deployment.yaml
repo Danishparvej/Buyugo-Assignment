@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: flask-app1-container
-        image: danish1998/flask-mongodb-app:latest
+        image: danish1998/flask-mongodb-app1
         ports:
         - containerPort: 5000
         resources:
