@@ -1,0 +1,5 @@
+# Build the docker image
+docker build -t flask-mongodb-app1 .
+
+# Push the docker image to dockerhub
+docker push danish1998/flask-mongodb-app1
